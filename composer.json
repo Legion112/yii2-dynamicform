@@ -1,0 +1,36 @@
+{
+  "name": "legion112/yii2-dynamicform",
+  "description": "It is widget to yii2 framework to clone form elements in a nested manner, maintaining accessibility.",
+  "keywords": [
+    "legion112",
+    "yii2",
+    "extension",
+    "widget",
+    "yii2-dynamicform",
+    "copy DOM element",
+    "yii2 dynamic form"
+  ],
+  "type": "yii2-extension",
+  "license": "BSD-3-Clause",
+  "authors": [
+    {
+      "name": "Wanderson Bragança",
+      "email": "wanderson.wbc@gmail.com",
+      "homepage": "http://wbraganca.com"
+    }
+    {
+      "name": "Max Ageev",
+      "email": "ageev.maks2014@gmail.com",
+    }
+  ],
+  "require": {
+    "yiisoft/yii2": "~2.0.5",
+    "symfony/css-selector": "~2.8|~3.0",
+    "symfony/dom-crawler": "~2.8|~3.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "legion112\\dynamicform\\": "src"
+    }
+  }
+}
